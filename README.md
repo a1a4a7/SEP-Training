@@ -13,6 +13,6 @@ This is a repo to record the SEP-FRE-TRAINING assignments and notes.
 
 ### Create your feature branch to implement the assignment.
 
-- git branch by_your_name/your_assignment_name
-- git checkout by_your_name/your_assignment_name
+- git branch by_your_name/hw
+- git checkout by_your_name/hw
 - implement the assignment under this feature branch.
