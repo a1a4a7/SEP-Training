@@ -1,13 +1,20 @@
-#mobleNum {
-    display: block;
+form {
+    text-align: center;
 }
 
+div {
+    margin: 10px;
+}
+
+button {
+    width: 130px;
+}
+
+#mobleNum, 
 #emailAddr {
-    display: block;
+    width: 260px;
 }
 
-label {
-    display: block;
+#agreeText {
+    text-align: center;
 }
-
-
