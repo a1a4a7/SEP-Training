@@ -1,0 +1,77 @@
+h1{
+    text-align:center;
+}
+
+div.form{
+    display:block;
+    text-align: center;
+    margin-left:34%;
+}
+
+form{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#sbox{
+    width:25%;
+    box-sizing: border-box;
+}
+
+#bbox{
+    width: 52%;
+    box-sizing: border-box;
+}
+
+input{
+    border:0.5px solid gray;
+    border-radius: 5px;
+    height: 30px;
+    margin:5px;
+    
+}
+input:hover{
+    box-shadow: 0 0 4px rgba(81, 203, 238, 1);
+}
+
+p.agreement{
+    display:inline-block;
+    text-align: left;
+    font-size: smaller;
+    margin-left: 5%;
+}
+div.sbs input,label{
+    float:left;
+}
+
+div.sbs label{
+    margin-top:1.5%;
+}
+
+#minireg{
+    color:white;
+    background-color: rgb(19, 99, 165);
+    border:none;
+    border-radius: 3px;
+}
+#reg{
+    color:white;
+    background-color: rgb(19, 99, 165);
+    border:none;
+    padding:1.5% 2%;
+    border-radius: 5px;
+    margin-right:5%;
+    width:25%;
+    text-align: center;
+}
+
+#sign{
+    color:white;
+    background-color:rgb(31, 128, 31);
+    border:none;
+    padding:1.5% 2%;
+    border-radius:5px;
+    width:25%;
+    
+}
