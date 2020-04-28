@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment01_Yutong_Gao</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        @media only screen and (max-width:480px) and (orientation:landscape) {
+            html {
+                font-size: 10px;
+            }
+        }
+
+        @media only screen and (min-width:480px) and (orientation:landscape) {
+            html {
+                font-size: 12px;
+            }
+        }
+    
+        @media only screen and (min-width:580px) and (orientation:landscape) {
+            html {
+                font-size: 13px;
+            }
+        }
+    
+        @media only screen and (min-width:768px) and (orientation:landscape) {
+            html {
+                font-size: 16px;
+            }
+        }
+    
+        @media only screen and (min-width:900px) and (orientation:landscape) {
+            html {
+                font-size: 21px;
+            }
+        }
+    
+        @media only screen and (min-width:1080px) {
+            html {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="wrapper">
+        <header>
+            <h1>Sign Up</h1>
+        </header>
+        <form action="POST">
+            <div class="name-wrapper">
+                <input class="name" name="firstname" type="text" placeholder="First Name">
+                <input class="name" name="lastname" type="text" placeholder="Last Name">
+            </div>
+            <input name="tel" type="tel" placeholder="Mobile No.">
+            <input name="email" type="email" placeholder="Email Address">
+            <input name="password" type="password" placeholder="Password">
+            <input name="passwordConfirm" type="password" placeholder="Confirm Password">
+
+            <div class="checkbox-wrapper">
+                <input id="agreement" type="checkbox">
+                <label for = "agreement">I agree</label>
+            </div>
+
+            <div class="btn-wrapper">
+                <button class="btn-blue">
+                    Register
+                </button>
+                <button class="btn-green">
+                    Sign in
+                </button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
