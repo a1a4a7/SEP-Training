@@ -1,0 +1,28 @@
+body { margin: 0; padding: 0; }
+h1 {
+    text-align: center;
+}
+
+.long {
+    height:30px;
+    margin-bottom: 10px;
+    width: 97%;
+}
+.short {
+    height:30px;
+    margin-bottom: 10px;
+    width: 47%;
+}
+.form {
+    width:30%;
+    height:30%;
+    margin:auto;
+}
+section {
+    width: 30%;
+}
+.button {
+    width:30%;
+    margin:auto;
+    text-align: center;
+}
