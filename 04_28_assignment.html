@@ -1,0 +1,115 @@
+<!-- 
+Boyuan Yu
+Day_1_04/28/2020
+HTML Assignment  
+-->
+<!DOCTYPE html>
+
+<header>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+        }
+        input[type="number"]{
+            -moz-appearance: textfield;
+        }
+        .inputf{
+            width: 700px;
+            margin: 0px auto;
+        }
+        .headsign{
+            text-align: center;
+            margin: 20px 0px 20px 0px;
+        }
+        .name{
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .mid{
+            width: 100%;
+        }
+        #lname{
+            width: 45%;
+        }
+        #fname{
+            width: 45%;
+            margin-right: 5%;
+        }
+        #cpassword{
+            width: 45%;
+        }
+        #password{
+            width: 45%;
+            margin-right: 5%;
+        }
+        .phem{
+            width: 95.5%;
+            margin: 0px auto;
+            margin-bottom: 10px;
+        }
+        .terms{
+            width: 95%;
+            margin: 0 auto;
+        }
+        .termbutton{
+            font-size: 8pt;
+        }
+        /* #agree{
+            margin-left: 5%;
+        } */
+        .left{
+            float: left;
+            width: 15%;
+            padding-top: 1%;
+        }
+        .right{
+            width: 100%;
+            padding-left: 20%;
+            font-size: 10pt;
+            color: gray;
+        }
+        .submit{
+            text-align: center;
+        }
+        #register{
+            width: 180px;
+            margin-right: 20px;
+        }
+        #login{
+            width: 180px;
+        }
+    </style>
+</header>
+
+<body>
+    <div class="inputf">
+        <div class="headsign"><h2>Sign Up</h2></div>
+        <form class="form-horizontal">
+            <div class="form-group form-inline name"> 
+                <div class="mid">
+                <input class="form-control" type="text" name="fname" id="fname" placeholder="First Name">
+                <input class="form-control" type="text" name="lname" id="lname" placeholder="Last Name">
+                </div>
+            </div>
+            <input class="form-control phem" type="number" name="phone" id="phone" placeholder="Mobile No.">
+            <input class="form-control phem" type="email" name="email" id="email" placeholder="Email Address">
+            <div class="form-group form-inline name"> 
+                <div class="mid">
+                <input class="form-control" type="password" name="password" id="password" placeholder="Password">
+                <input class="form-control" type="password" name="cpassword" id="cpassword" placeholder="Confirm Password">
+                </div>
+            </div>
+            <div class="terms">
+                <p class="left"><input type="checkbox" name="agree" id="agree"> I Agree </p>
+                <p class="right">By clicking <button disabled type="button" class="btn btn-primary btn-sm termbutton">Register</button> , you agree to the <a href="#">Terms and Conditions</a> set out by this site, including our Cookie Use.</p>
+            </div>
+            <div class="submit">
+                <input class="btn btn-primary btn-lg" type="submit" name="register" id="register">
+                <button class="btn btn-success btn-lg" id="login">Sign In</button>
+            </div>
+        </form>
+    </div>
+</body>
