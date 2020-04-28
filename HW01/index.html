@@ -48,7 +48,7 @@
         <header>
             <h1>Sign Up</h1>
         </header>
-        <form action="POST">
+        <form action="/register" method="POST">
             <div class="name-wrapper">
                 <input class="name" name="firstname" type="text" placeholder="First Name">
                 <input class="name" name="lastname" type="text" placeholder="Last Name">
@@ -59,17 +59,13 @@
             <input name="passwordConfirm" type="password" placeholder="Confirm Password">
 
             <div class="checkbox-wrapper">
-                <input id="agreement" type="checkbox">
+                <input id="agreement" name="agreement" type="checkbox">
                 <label for = "agreement">I agree</label>
             </div>
 
             <div class="btn-wrapper">
-                <button class="btn-blue">
-                    Register
-                </button>
-                <button class="btn-green">
-                    Sign in
-                </button>
+                <input type="submit" class="button btn-blue" value="Register">
+                <a href="/login" class="button btn-green">Sign In</a>
             </div>
         </form>
     </main>
